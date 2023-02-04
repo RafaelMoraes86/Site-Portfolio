@@ -1,0 +1,231 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.caixa-principal {
+    height: 100vh;
+    width: 100%;
+    background-image: url(./img/background.png);
+    background-size: cover;
+    background-position: center;
+    background-color: #191919;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 30px;
+}
+
+.portfolio {
+    color: white;
+    font-size: 40px;
+
+}
+
+.portfolio span {
+    color: red;
+}
+
+.link-menu {
+    text-decoration: none;
+    color: white;
+}
+
+li {
+    color: white;
+    list-style: none;
+    display: inline-block;
+    margin: 25px 100px 0 0;
+    cursor: pointer;
+    font-size: 30px;
+}
+
+.link-menu:hover {
+    color: red;
+    transition: 0.4s;
+
+}
+
+.meu-nome {
+    position: absolute;
+    top: 50%;
+    left: 8%;
+    color:white;
+}
+
+h1 {
+    font-size: 55px;
+}
+
+h3 {
+    font-size: 27px;
+    margin-top: 10px;
+}
+.meu-nome h1 span {
+    color: red;
+}
+
+section{
+    background-color: black;
+}
+
+.minha-foto{
+    width: 500px;
+    border-radius: 100%;
+    border: 4px solid rgb(236, 78, 78);
+
+}
+
+.sobre-mim {
+color: white;
+font-size: 30px;
+display: inline-block;  
+width: 900px;
+position: absolute;
+bottom: -479px;
+}
+
+h2 {
+text-align: center;
+font-weight: 85px;
+}
+
+section p {
+    margin: 30px 0px 150px 30px;
+    opacity: .8;
+}
+
+button{
+    border-radius: 50px;
+    background-color: red;
+    font-size: 21px;
+    color: white;
+    text-align: center;
+    height: 50px;
+    width: 217px;
+    position: absolute;
+    bottom: 50px;
+    right: 355px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background: black;
+    border: 2px solid red;
+    transition: 0.6s;
+
+}
+
+.projetos {
+    background: #191919;
+    display: flex;
+    flex-direction: column;
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+
+.projetos h2 {
+    color: white;
+    font-size: 55px;
+}
+
+.cards {
+    background: black;
+    height: 365px;
+    width: 335px;
+    border-radius: 25px;
+    padding: 20px 35px;
+    text-align: center;
+}
+
+.cards img {
+    height: 88px;
+}
+
+.cards h5 {
+    color: white;
+    font-size: 24px;
+}
+
+.cards p {
+    color: #e2b9c6;
+    margin-top: 15px;
+    margin-bottom: 35px;
+}
+
+.cards a {
+    background-color: red;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.cards a:hover {
+    background-color: transparent;
+    border: 2px solid red;
+    transition: 0.8s;
+}
+
+.card-projeto {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+}
+
+footer {
+background: black;
+padding-top: 100px;
+padding-bottom: 100px;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+}
+
+footer h5{
+    color: white;
+    font-size: 30px;
+}
+
+footer p {
+    color: white;
+    font-size: 18px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+.social {
+display: flex;
+gap: 15px;
+}
+
+.social img {
+    height: 27px;
+    border-radius: 10px;
+}
+
+.social a {
+background-color: red;
+border-radius: 50%;
+display: flex;
+align-items: center;
+justify-content: center;
+height: 50px;
+width: 50px;
+cursor: pointer;
+}
+
+.social a:hover {
+    transform: scale(1.4);
+    transition: 0.5s;
+
+}
